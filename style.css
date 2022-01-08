@@ -5,11 +5,11 @@ body {
     font-family: "Roboto", sans-serif;
   }
   h1 {
-    font-size: 60px;
+    font-size: 55px;
   }
   h2 {
     font-size: 36px;
-    color: #333333;
+    color:(black);
   }
   .flex {
     display: flex;
@@ -22,7 +22,7 @@ body {
     width: 75%;
     margin: 0 auto;
   }
-  .img-container {
+  .add-img {
     width: 50%;
     margin: 0 2.5%;
   }
@@ -30,7 +30,7 @@ body {
     width: 100%;
   }
   .header-info h1 {
-    border-left: 3px solid brown;
+    border-left: 3px solid orange;
     padding-left: 15px;
   }
   span {
@@ -45,12 +45,12 @@ body {
     font-weight: 700;
     border-radius: 4px;
   }
-  .card {
+  .box {
     background-color: wheat;
     border-radius: 4px;
     padding: 20px;
   }
-  card h3 {
+  .box h3 {
     font-size: 20px;
   }
   .color2 {
@@ -60,7 +60,7 @@ body {
   .color3 {
     background-color: thistle;
   }
-  .card img {
+  .box img {
     width: 100px;
     height: 100px;
   }
@@ -75,23 +75,23 @@ body {
     box-sizing: border-box;
   }
   
-  .contract-us {
-    border-radius: 5px;
-    background-color: #f2f2f2;
+  .form {
+    border-radius: 10px;
+    background-color:aqua;
     padding: 20px;
-    text-align: center;
+    text-align: left;
   }
   .footer {
     width: 100%;
     background: #1e2238;
     text-align: center;
     color: white;
-    padding: 10px 0;
+    padding: 15px 5;
     margin-top: 40px;
   }
   .footer h4 {
-    font-size: 36px;
+    font-size: 35px;
   }
   .footer p {
     color: #d9dbe1;
-  }s
+  }
